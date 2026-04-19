@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanulókártya rendszer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="oldal-fejlec">
+    <div class="tarto">
+      <div>
+        <h1>Tanulókártya rendszer</h1>
+        <p class="alcim">3 kérdéstípus, 20 random kérdés, végső kiértékelés</p>
+      </div>
+
+      <nav class="menu">
+        <a href="index.html" class="aktiv">Gyakorlás</a>
+        <a href="felvitel.html">Kérdés felvitele</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="tarto">
+    <section id="kezdoKepernyo" class="kartya nagy-kartya">
+      <h2>Kezdés</h2>
+      <p>
+        A rendszer a teljes kérdésbankból véletlenszerűen kiválaszt 20 kérdést.
+        A kérdések között lesz feleletválasztós, több helyes válaszos és hibakeresős is.
+      </p>
+
+      <div class="urlap">
+        <label for="gyakorlasNehezseg">Milyen nehézségű kérdéseket kérsz?</label>
+        <select id="gyakorlasNehezseg">
+          <option value="vegyes">Vegyes</option>
+          <option value="konnyu">Könnyű</option>
+          <option value="kozepes">Közepes</option>
+          <option value="nehez">Nehéz</option>
+        </select>
+      </div>
+
+      <div class="kezdo-informaciok">
+        <div class="info-doboz">
+          <span id="osszesKerdesDb">0</span>
+          <small>kérdés a rendszerben</small>
+        </div>
+        <div class="info-doboz">
+          <span>20</span>
+          <small>kérdés egy körben</small>
+        </div>
+        <div class="info-doboz">
+          <span>3</span>
+          <small>feladattípus</small>
+        </div>
+      </div>
+
+      <div class="gomb-sor">
+        <button id="inditasGomb" class="fo-gomb">Tanulás indítása</button>
+        <button id="alapKerdesekGomb" class="masodlagos-gomb">Alap kérdésbank visszaállítása</button>
+      </div>
+    </section>
+
+    <section id="tesztKepernyo" class="rejtett">
+      <div class="felso-sav">
+        <div class="haladas">
+          <strong id="aktualisSorszam">1</strong> / <span id="osszesSorszam">20</span>
+        </div>
+        <div class="tipus-cimke" id="tipusCimke">Feleletválasztós</div>
+      </div>
+
+      <article class="kartya nagy-kartya">
+        <div class="kis-cimke" id="aktualisNehezsegCimke">Nehézség: -</div>
+        <h2 id="kerdesSzoveg">Kérdés helye</h2>
+
+        <div id="kerdesTartalom"></div>
+
+        <div class="gomb-sor terkoz-nagy">
+          <button id="elozoGomb" class="masodlagos-gomb">Előző</button>
+          <button id="kovetkezoGomb" class="fo-gomb">Következő</button>
+          <button id="befejezesGomb" class="veszely-gomb">Teszt befejezése</button>
+        </div>
+      </article>
+    </section>
+
+    <section id="eredmenyKepernyo" class="rejtett">
+      <article class="kartya nagy-kartya">
+        <h2>Kiértékelés</h2>
+
+        <div class="eredmeny-osszefoglalo">
+          <div class="eredmeny-doboz">
+            <span id="helyesDb">0</span>
+            <small>helyes</small>
+          </div>
+          <div class="eredmeny-doboz">
+            <span id="hibasDb">0</span>
+            <small>hibás</small>
+          </div>
+          <div class="eredmeny-doboz">
+            <span id="szazalekErtek">0%</span>
+            <small>eredmény</small>
+          </div>
+        </div>
+
+        <div id="tipusonkentiBontas" class="tipus-bontas"></div>
+
+        <h3>Részletes eredmények</h3>
+        <div id="reszletesEredmenyek"></div>
+
+        <div class="gomb-sor terkoz-nagy">
+          <button id="ujKorGomb" class="fo-gomb">Új 20 kérdés</button>
+          <button id="visszaKezdoGomb" class="masodlagos-gomb">Vissza a kezdőoldalra</button>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

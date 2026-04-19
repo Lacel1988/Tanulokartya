@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kérdés felvitele</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="oldal-fejlec">
+    <div class="tarto">
+      <div>
+        <h1>Kérdés felvitele</h1>
+        <p class="alcim">Új kérdések létrehozása, szerkesztése és törlése</p>
+      </div>
+
+      <nav class="menu">
+        <a href="index.html">Gyakorlás</a>
+        <a href="felvitel.html" class="aktiv">Kérdés felvitele</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="tarto ket-oszlop">
+    <section class="kartya">
+      <h2 id="urlapCim">Új kérdés létrehozása</h2>
+
+      <form id="kerdesForm" class="urlap">
+        <input type="hidden" id="szerkesztettId">
+
+        <label for="tipus">Kérdés típusa</label>
+        <select id="tipus" required>
+          <option value="feleletvalasztos">Feleletválasztós</option>
+          <option value="tobbhelyes">Több helyes válasz</option>
+          <option value="hibakereses">Hibakeresés</option>
+        </select>
+
+        <label for="nehezseg">Nehézségi szint</label>
+        <select id="nehezseg" required>
+          <option value="konnyu">Könnyű</option>
+          <option value="kozepes">Közepes</option>
+          <option value="nehez">Nehéz</option>
+        </select>
+
+        <label for="kerdes">Kérdés szövege</label>
+        <textarea id="kerdes" rows="3" required></textarea>
+
+        <div id="valaszosBlokk">
+          <label>Válaszlehetőségek</label>
+
+          <div class="valasz-sor">
+            <input type="text" class="valasz-input" placeholder="1. válasz" required>
+            <label class="inline-jelolo radio-jelolo">
+              <input type="radio" name="helyesRadio" value="0">
+              helyes
+            </label>
+            <label class="inline-jelolo tobbhelyes-jelolo rejtett">
+              <input type="checkbox" class="helyes-checkbox" value="0">
+              helyes
+            </label>
+          </div>
+
+          <div class="valasz-sor">
+            <input type="text" class="valasz-input" placeholder="2. válasz" required>
+            <label class="inline-jelolo radio-jelolo">
+              <input type="radio" name="helyesRadio" value="1">
+              helyes
+            </label>
+            <label class="inline-jelolo tobbhelyes-jelolo rejtett">
+              <input type="checkbox" class="helyes-checkbox" value="1">
+              helyes
+            </label>
+          </div>
+
+          <div class="valasz-sor">
+            <input type="text" class="valasz-input" placeholder="3. válasz" required>
+            <label class="inline-jelolo radio-jelolo">
+              <input type="radio" name="helyesRadio" value="2">
+              helyes
+            </label>
+            <label class="inline-jelolo tobbhelyes-jelolo rejtett">
+              <input type="checkbox" class="helyes-checkbox" value="2">
+              helyes
+            </label>
+          </div>
+
+          <div class="valasz-sor">
+            <input type="text" class="valasz-input" placeholder="4. válasz" required>
+            <label class="inline-jelolo radio-jelolo">
+              <input type="radio" name="helyesRadio" value="3">
+              helyes
+            </label>
+            <label class="inline-jelolo tobbhelyes-jelolo rejtett">
+              <input type="checkbox" class="helyes-checkbox" value="3">
+              helyes
+            </label>
+          </div>
+        </div>
+
+        <div id="hibakeresesBlokk" class="rejtett">
+          <label for="kod">Kódrészlet</label>
+          <textarea id="kod" rows="8" placeholder="Ide írd a kódot soronként"></textarea>
+
+          <label for="hibasSor">Hibás sor száma</label>
+          <input type="number" id="hibasSor" min="1" placeholder="Például: 2">
+        </div>
+
+        <label for="magyarazat">Magyarázat (opcionális)</label>
+        <textarea id="magyarazat" rows="3" placeholder="Miért ez a helyes válasz?"></textarea>
+
+        <div class="gomb-sor terkoz-nagy">
+          <button type="submit" class="fo-gomb">Mentés</button>
+          <button type="button" id="urlapTorlesGomb" class="masodlagos-gomb">Űrlap ürítése</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="kartya">
+      <div class="lista-fejlec">
+        <h2>Rögzített kérdések</h2>
+        <span id="felvittDb" class="db-cimke">0 db</span>
+      </div>
+
+      <div class="gomb-sor terkoz-nagy">
+        <button id="jsonExportGomb" class="masodlagos-gomb">JSON export</button>
+        <label class="fajl-import-gomb">
+          JSON import
+          <input type="file" id="jsonImportInput" accept=".json">
+        </label>
+      </div>
+
+      <div id="kerdesLista" class="kerdes-lista"></div>
+    </section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="felvitel.js"></script>
+</body>
+</html>

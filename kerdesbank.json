@@ -1,0 +1,773 @@
+[
+  {
+    "id": 1,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik metódus rendezi a tömb elemeit JavaScriptben?",
+    "valaszok": [
+      "push()",
+      "sort()",
+      "join()",
+      "slice()"
+    ],
+    "helyesValasz": 1
+  },
+  {
+    "id": 2,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik kulcsszóval deklarálhatunk blokkhatókörű változót?",
+    "valaszok": [
+      "var",
+      "let",
+      "dim",
+      "new"
+    ],
+    "helyesValasz": 1
+  },
+  {
+    "id": 3,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik HTML elem szolgál legördülő lista létrehozására?",
+    "valaszok": [
+      "<list>",
+      "<option>",
+      "<select>",
+      "<inputlist>"
+    ],
+    "helyesValasz": 2
+  },
+  {
+    "id": 4,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik operátor jelenti a szigorú egyenlőséget JavaScriptben?",
+    "valaszok": [
+      "=",
+      "==",
+      "===",
+      "!="
+    ],
+    "helyesValasz": 2
+  },
+  {
+    "id": 5,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik DOM metódussal kérünk le egy elemet az azonosítója alapján?",
+    "valaszok": [
+      "querySelectorAll()",
+      "getElementById()",
+      "getElementsByClassName()",
+      "createElement()"
+    ],
+    "helyesValasz": 1
+  },
+  {
+    "id": 6,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik CSS tulajdonsággal állítjuk a szöveg színét?",
+    "valaszok": [
+      "font-color",
+      "text-color",
+      "color",
+      "foreground"
+    ],
+    "helyesValasz": 2
+  },
+  {
+    "id": 7,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik függvénnyel alakítunk szöveget számmá egész értékké JavaScriptben?",
+    "valaszok": [
+      "NumberToText()",
+      "parseInt()",
+      "int()",
+      "toInteger()"
+    ],
+    "helyesValasz": 1
+  },
+  {
+    "id": 8,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik HTML tag hoz létre kattintható gombot?",
+    "valaszok": [
+      "<button>",
+      "<press>",
+      "<click>",
+      "<inputbutton>"
+    ],
+    "helyesValasz": 0
+  },
+  {
+    "id": 9,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik ciklus fut le legalább egyszer?",
+    "valaszok": [
+      "for",
+      "while",
+      "do...while",
+      "foreach"
+    ],
+    "helyesValasz": 2
+  },
+  {
+    "id": 10,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik esemény fut le kattintáskor?",
+    "valaszok": [
+      "onchange",
+      "onmouse",
+      "onclick",
+      "onfocus"
+    ],
+    "helyesValasz": 2
+  },
+  {
+    "id": 11,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik metódus fűz hozzá elemet a tömb végéhez?",
+    "valaszok": [
+      "shift()",
+      "pop()",
+      "push()",
+      "unshift()"
+    ],
+    "helyesValasz": 2
+  },
+  {
+    "id": 12,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik CSS tulajdonság igazítja középre a szöveget?",
+    "valaszok": [
+      "align: center",
+      "text-align: center",
+      "center-text: true",
+      "font-align: center"
+    ],
+    "helyesValasz": 1
+  },
+  {
+    "id": 13,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik JavaScript adattípus logikai értéket tárol?",
+    "valaszok": [
+      "number",
+      "boolean",
+      "string",
+      "array"
+    ],
+    "helyesValasz": 1
+  },
+  {
+    "id": 14,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik metódus törli a tömb utolsó elemét?",
+    "valaszok": [
+      "pop()",
+      "shift()",
+      "remove()",
+      "deleteLast()"
+    ],
+    "helyesValasz": 0
+  },
+  {
+    "id": 15,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik HTML elemre írunk általában beviteli mezőt?",
+    "valaszok": [
+      "<textarea>",
+      "<entry>",
+      "<input>",
+      "<formfield>"
+    ],
+    "helyesValasz": 2
+  },
+  {
+    "id": 16,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik metódus ad vissza egy részletet egy tömbből az eredeti módosítása nélkül?",
+    "valaszok": [
+      "splice()",
+      "slice()",
+      "split()",
+      "cut()"
+    ],
+    "helyesValasz": 1
+  },
+  {
+    "id": 17,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik CSS tulajdonság állítja a háttérszínt?",
+    "valaszok": [
+      "color",
+      "background-color",
+      "bg",
+      "fill"
+    ],
+    "helyesValasz": 1
+  },
+  {
+    "id": 18,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik JavaScript kulcsszóval készítünk függvényt?",
+    "valaszok": [
+      "method",
+      "function",
+      "def",
+      "func"
+    ],
+    "helyesValasz": 1
+  },
+  {
+    "id": 19,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek ciklusok JavaScriptben?",
+    "valaszok": [
+      "for",
+      "while",
+      "switch",
+      "do...while"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 20,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek tömbmetódusok JavaScriptben?",
+    "valaszok": [
+      "push()",
+      "filter()",
+      "print()",
+      "map()"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 21,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek érvényes változódeklaráló kulcsszavak JavaScriptben?",
+    "valaszok": [
+      "let",
+      "const",
+      "var",
+      "value"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 22,
+    "tipus": "tobbhelyes",
+    "kerdes": "Mely HTML elemek tartoznak tipikusan űrlapokhoz?",
+    "valaszok": [
+      "<input>",
+      "<form>",
+      "<button>",
+      "<table>"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 23,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek események a DOM-ban?",
+    "valaszok": [
+      "onclick",
+      "onchange",
+      "sort()",
+      "oninput"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 24,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek igazak a CSS-ről?",
+    "valaszok": [
+      "A kinézetet szabályozza",
+      "Lehet szelektorokat használni",
+      "Csak JavaScriptben írható",
+      "Lehet osztályokra hivatkozni"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 25,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek adhatnak vissza logikai értéket JavaScriptben?",
+    "valaszok": [
+      "szigorú összehasonlítás",
+      "kisebb mint összehasonlítás",
+      "push()",
+      "egyenlőtlenség vizsgálata"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 26,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek szövegkezeléshez kapcsolódó JavaScript metódusok?",
+    "valaszok": [
+      "toUpperCase()",
+      "includes()",
+      "appendRow()",
+      "trim()"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 27,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek tömbök JavaScriptben?",
+    "valaszok": [
+      "[]",
+      "new Array()",
+      "{}",
+      "Array.of(1,2)"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 28,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek érvényes CSS kiválasztók?",
+    "valaszok": [
+      ".doboz",
+      "#fejlec",
+      "style()",
+      "p"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 29,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek blokkszintű HTML elemek tipikusan?",
+    "valaszok": [
+      "div",
+      "p",
+      "span",
+      "section"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 30,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek beépített párbeszédablakok JavaScriptben?",
+    "valaszok": [
+      "alert()",
+      "prompt()",
+      "confirm()",
+      "console()"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 31,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek helyes tömbbejárási lehetőségek?",
+    "valaszok": [
+      "for",
+      "for...of",
+      "while",
+      "forEach()"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 32,
+    "tipus": "tobbhelyes",
+    "kerdes": "Mely HTML elemek képesek szöveget tartalmazni?",
+    "valaszok": [
+      "div",
+      "span",
+      "p",
+      "input"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 33,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek matematikai operátorok JavaScriptben?",
+    "valaszok": [
+      "+",
+      "-",
+      "*",
+      "=>"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 34,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek igazak a localStorage-ra?",
+    "valaszok": [
+      "Szöveges adatokat tárol",
+      "Böngészőben tárolódik",
+      "Szerveroldali adatbázis",
+      "JSON string is menthető bele"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 35,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek helyes eseményfigyelő megoldások?",
+    "valaszok": [
+      "element.addEventListener()",
+      "onclick attribútum",
+      "listenEvent()",
+      "change esemény kezelése"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 36,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek a modern weboldal alapnyelvei?",
+    "valaszok": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "SQL"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 37,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "let szam = 10;",
+      "if (szam > 5 {",
+      "  console.log('Nagyobb mint 5');",
+      "}"
+    ],
+    "hibasSor": 2,
+    "magyarazat": "Hiányzik a lezáró kerek zárójel az if feltételben."
+  },
+  {
+    "id": 38,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "const nevek = ['Anna', 'Béla'];",
+      "console.log(nevek.lenght);"
+    ],
+    "hibasSor": 2,
+    "magyarazat": "A helyes tulajdonság neve length, nem lenght."
+  },
+  {
+    "id": 39,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "let x = 5;",
+      "if (x === 5) {",
+      "  console.log('ok');",
+      ""
+    ],
+    "hibasSor": 4,
+    "magyarazat": "Hiányzik a lezáró kapcsos zárójel."
+  },
+  {
+    "id": 40,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "let szoveg = 'alma';",
+      "console.log(szoveg.toUppercase());"
+    ],
+    "hibasSor": 2,
+    "magyarazat": "A helyes metódus neve toUpperCase()."
+  },
+  {
+    "id": 41,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "for (let i = 0; i < 5; i++) {",
+      "  console.log(i)",
+      "}}"
+    ],
+    "hibasSor": 3,
+    "magyarazat": "Túl sok lezáró kapcsos zárójel van."
+  },
+  {
+    "id": 42,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "const gomb = document.getElementByID('gomb');",
+      "gomb.addEventListener('click', function () {",
+      "  alert('Szia');",
+      "});"
+    ],
+    "hibasSor": 1,
+    "magyarazat": "A helyes DOM metódus getElementById, nem getElementByID."
+  },
+  {
+    "id": 43,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "let szamok = [1, 2, 3];",
+      "szamok.push[4];",
+      "console.log(szamok);"
+    ],
+    "hibasSor": 2,
+    "magyarazat": "A push metódust zárójelekkel kell meghívni: push(4)."
+  },
+  {
+    "id": 44,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "const nev = 'Peti';",
+      "if (nev = 'Peti') {",
+      "  console.log('Szia');",
+      "}"
+    ],
+    "hibasSor": 2,
+    "magyarazat": "Összehasonlításhoz == vagy === kell, nem egyszerű értékadás."
+  },
+  {
+    "id": 45,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "const lista = document.querySelectorAll('.elem');",
+      "lista.foreach(elem => {",
+      "  console.log(elem);",
+      "});"
+    ],
+    "hibasSor": 2,
+    "magyarazat": "A helyes metódus neve forEach, nagy E betűvel."
+  },
+  {
+    "id": 46,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "let osszeg = 0;",
+      "for (let i = 0; i <= 3; i++) {",
+      "  osszeg += i;",
+      "console.log(osszeg);"
+    ],
+    "hibasSor": 4,
+    "magyarazat": "Hiányzik a ciklust lezáró kapcsos zárójel a console.log előtt vagy után."
+  },
+  {
+    "id": 47,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "const szam = Number('12');",
+      "if (szam > 10)) {",
+      "  console.log('nagy');",
+      "}"
+    ],
+    "hibasSor": 2,
+    "magyarazat": "Egy felesleges lezáró kerek zárójel van a feltételben."
+  },
+  {
+    "id": 48,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "let szoveg = 'hello';",
+      "console.log(szoveg.includes('e');"
+    ],
+    "hibasSor": 2,
+    "magyarazat": "Hiányzik egy lezáró kerek zárójel a függvényhívás végéről."
+  },
+  {
+    "id": 49,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "const ertek = 15;",
+      "switch (ertek) {",
+      "  case 10:",
+      "    console.log('tíz');",
+      "    brake;",
+      "}"
+    ],
+    "hibasSor": 5,
+    "magyarazat": "A helyes kulcsszó break, nem brake."
+  },
+  {
+    "id": 50,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "const bekezdes = document.querySelector('p');",
+      "bekezdes.innerHtml = 'Új szöveg';"
+    ],
+    "hibasSor": 2,
+    "magyarazat": "A helyes DOM tulajdonság innerHTML, nem innerHtml."
+  },
+  {
+    "id": 51,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "const szinek = ['piros', 'kék'];",
+      "console.log(szinek[2]);",
+      "szinek[0] = 'zöld';"
+    ],
+    "hibasSor": 2,
+    "magyarazat": "Ez inkább logikai hiba lehetne, de szintaktikai értelemben nem hibás. Tesztkérdésként ezt most ne használd valódi vizsgára."
+  },
+  {
+    "id": 52,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "let a = 5;",
+      "let b = 10;",
+      "console.log(a + b));"
+    ],
+    "hibasSor": 3,
+    "magyarazat": "Felesleges lezáró kerek zárójel van a sor végén."
+  },
+  {
+    "id": 53,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "const urlap = document.querySelector('#urlap');",
+      "urlap.addEventListener('submit', (e) => {",
+      "  e.preventDefault();",
+      "  console.log('mentve');",
+      "});"
+    ],
+    "hibasSor": 1,
+    "magyarazat": "Ez a minta valójában helyes. Ha akarod, ezt később cserélheted valódi hibás mintára."
+  },
+  {
+    "id": 54,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a kódrészletben?",
+    "kod": [
+      "const szam = 8;",
+      "if (szam < 10) {",
+      "  console.log('kisebb')",
+      "}"
+    ],
+    "hibasSor": 3,
+    "magyarazat": "A pontosvessző hiánya JavaScriptben nem mindig szintaktikai hiba, de tanuló kérdésként itt megjelölhető."
+  },
+  {
+    "id": 55,
+    "tipus": "feleletvalasztos",
+    "kerdes": "Melyik metódussal lehet egy elemet azonosító alapján lekérni a DOM-ból?",
+    "valaszok": [
+      "querySelectorAll()",
+      "getElementById()",
+      "createElement()",
+      "appendChild()"
+    ],
+    "helyesValasz": 1
+  },
+  {
+    "id": 56,
+    "tipus": "tobbhelyes",
+    "kerdes": "Melyek érvényes JavaScript ciklusok?",
+    "valaszok": [
+      "for",
+      "while",
+      "switch",
+      "do...while"
+    ],
+    "helyesValaszok": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 57,
+    "tipus": "hibakereses",
+    "kerdes": "Melyik sor hibás a következő kódrészletben?",
+    "kod": [
+      "let nev = \"Peti\";",
+      "if (nev === \"Peti\" {",
+      "  console.log(\"Szia\");",
+      "}"
+    ],
+    "hibasSor": 2,
+    "magyarazat": "Hiányzik a lezáró kerek zárójel az if feltételben."
+  }
+]
